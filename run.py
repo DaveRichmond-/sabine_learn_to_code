@@ -1,3 +1,1 @@
-from pfk_exercises.chpt3 import main
-
-main()
+import pfk_exercises.chpt4
