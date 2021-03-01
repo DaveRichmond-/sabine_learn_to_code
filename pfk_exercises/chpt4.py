@@ -31,11 +31,31 @@ t.left(90)
 t.forward(20)
 t.right(90)
 t.up()
+
+# # nose
+# t.forward(15)
+# t.right(90)
+# t.forward(25)
+# t.right(90)
+# t.down()
+
+# for idx in range(40):
+#   t.forward(1)
+#   t.left(360/40)
+#   print(f"Completed step {idx+1} of the circle")
+
+# t.up()
+# t.right(90)
+# t.forward(25)
+# t.right(90)
+# t.forward(15)
+
+# right eye
 t.forward(30)
 t.right(90)
 t.down()
-# right eye
 t.forward(20)
+
 # mouth
 t.left(45)
 t.up()
