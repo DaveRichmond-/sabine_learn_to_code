@@ -1,11 +1,15 @@
-def sff(name):
-  print("Hello.  I'm " + name + "'s first function.")
+from chpt7_functions import name_picker, room_picker
 
-def sof(S, D):
-  T = S / D
-  return T
+#list_of_stuff = ['pair of socks', 'hat', 'banana']
 
-# sff("Dave & Sabine")
+# list_of_stuff = ['7', '10', '39', '40']
+# random_item = np.random.choice(list_of_stuff)
 
-result = sof(1234, 983)
-print(result)
+# random_age = np.random.randint(9, 11)
+
+# print("Are you " + str(random_age) + " years old?")
+
+result1 = name_picker()
+result2 = room_picker()
+
+print(result1 + " in the " + result2)
