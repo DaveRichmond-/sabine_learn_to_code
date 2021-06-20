@@ -1,2 +1,2 @@
 language = "python3"
-run = "python pfk_exercises/chpt7.py"
+run = "python pfk_exercises/test_review_chpt1_8.py"
