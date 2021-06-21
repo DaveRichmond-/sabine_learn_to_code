@@ -10,7 +10,7 @@ value_dime = 0.10
 value_quarter = 0.25
 value_dollar = 1.0
 
-# TOTAL = 
+# TOTAL =
 
 # Chapter 3: Strings, Lists, Tuples and Dictionaries --------------->
 

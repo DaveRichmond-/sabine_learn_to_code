@@ -2,13 +2,16 @@ import review_chpt1_8
 
 
 def test_1():
-  value_penny = 0.01
-  value_nickel = 0.05
-  value_dime = 0.10
-  value_quarter = 0.25
-  value_dollar = 1.0
-  TOTAL = 7*value_dollar + 34*value_quarter + 71*value_dime + 112*value_nickel + 42*value_penny
   
+  value_penny = 1
+  value_nickel = 5
+  value_dime = 10
+  value_quarter = 25
+  value_dollar = 100
+  
+  TOTAL = (7*value_dollar + 34*value_quarter + 71*value_dime + 112*value_nickel + 42*value_penny) / 100
+  
+  assert hasattr(review_chpt1_8, 'TOTAL'), f"The variable TOTAL doesn't exist"
   assert review_chpt1_8.TOTAL == TOTAL, f"The value of TOTAL should be {TOTAL}"
 
 
